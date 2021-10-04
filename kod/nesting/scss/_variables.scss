@@ -1,3 +1,9 @@
 $dark: #000;
 $light: #fff;
 $red: rgb(223, 47, 47);
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

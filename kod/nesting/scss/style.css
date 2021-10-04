@@ -1,0 +1,74 @@
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 1rem 2rem;
+  background: none;
+  border-radius: 4px;
+  border: 2px solid #000;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+button.sml {
+  padding: .5rem 1rem;
+}
+
+button.large {
+  font-size: 1.4rem;
+  padding: 1.5rem 3rem;
+}
+
+button[disabled] {
+  opacity: .4;
+  color: #000;
+}
+
+button[disabled]:hover {
+  cursor: not-allowed;
+  background: none;
+  border-color: #000;
+}
+
+button[disabled]:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+button.danger {
+  background-color: #df2f2f;
+  border: none;
+  color: white;
+}
+
+button.danger:hover {
+  color: #df2f2f;
+  background: none;
+  border: 2px solid #df2f2f;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,10 @@
-# 4-okt-SASS
+# 4 Okt - SASS
+SASS ( scss )
+
+- nesting
+- modules / partials
+- mixins
+
+
+## Links
+https://sass-lang.com/
